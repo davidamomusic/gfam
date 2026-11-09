@@ -1,0 +1,12 @@
+# build output (the ROM of each version is kept in releases/)
+build/
+__pycache__/
+*.pyc
+
+# keys and local files: never commit these
+*.pem
+*.key
+*.jks
+*.keystore
+.env
+.DS_Store
